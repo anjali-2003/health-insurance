@@ -39,6 +39,21 @@ def main():
     st.markdown(html_temp, unsafe_allow_html = True)
     if selected == "home":
         st.subheader("heyyyyyyyy!!!!!!!")
+        st.markdown("Mission: To be the most preferred choice of customers for General Insurance by building Relationships and grow profitably.")
+        st.title("Vision :")
+        st.markdown("Leveraging technology to integrate people and processes.")
+        st.markdown("To excel in service and performance.")
+        st.markdown("To uphold the highest ethical standards in conducting our business.")
+        st.title("What is Insurance?")
+        st.markdown("Most people have some kind of insurance: for their car, their house, or even their life. Yet most of us don’t stop to think too much about what insurance is or how it works.Put simply, insurance is a contract, represented by a policy, in which a policyholder receives financial protection or reimbursement against losses from an insurance company. The company pools clients’ risks to make payments more affordable for the insured.Insurance policies are used to hedge against the risk of financial losses, both big and small, that may result from damage to the insured or their property, or from liability for damage or injury caused to a third party.")
+        st.title("KeyTakeaways")
+        st.markdown("Insurance is a contract (policy) in which an insurer indemnifies another against losses from specific contingencies or perils.")
+        st.markdown("There are many types of insurance policies. Life, health, homeowners, and auto are the most common forms of insurance")
+        st.markdown("The core components that make up most insurance policies are the deductible, policy limit, and premium.")
+        st.title("How Insurance Works")
+        st.markdown("A multitude of different types of insurance policies is available, and virtually any individual or business can find an insurance company willing to insure them—for a price. The most common types of personal insurance policies are auto, health, homeowners, and life. Most individuals in the United States have at least one of these types of insurance, and car insurance is required by law.Businesses require special types of insurance policies that insure against specific types of risks faced by a particular business. For example, a fast-food restaurant needs a policy that covers damage or injury that occurs as a result of cooking with a deep fryer. An auto dealer is not subject to this type of risk but does require coverage for damage or injury that could occur during test drives.")
+        st.subheader("Important Note:")
+        st.markdown("To select the best policy for you or your family, it is important to pay attention to the three critical components of most insurance policies: 1.deductible, 2.premium, and 3.policy limit.")
         def load_lottiefile(filepath: str):
             with open (filepath, "r") as f:
                 return json.load(f)
