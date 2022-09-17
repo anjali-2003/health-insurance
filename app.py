@@ -39,6 +39,11 @@ def main():
     st.markdown(html_temp, unsafe_allow_html = True)
     if selected == "home":
         st.subheader("heyyyyyyyy!!!!!!!")
+        st.markdown("Mission: To be the most preferred choice of customers for General Insurance by building Relationships and grow profitably.")
+        st.title("Vision :")
+        st.markdown("Leveraging technology to integrate people and processes.")
+        st.markdown("To excel in service and performance.")
+        st.markdown("To uphold the highest ethical standards in conducting our business.")
         def load_lottiefile(filepath: str):
             with open (filepath, "r") as f:
                 return json.load(f)
